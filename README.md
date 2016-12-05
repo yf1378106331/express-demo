@@ -13,4 +13,3 @@ npm install jade
 (3)jade 提供了三种方式获取纯文本:方式一，在文本的开头使用管道符 (|);方式二，文本与 tag 放到同一行;方式三，适合有大量文本的情况；在 tag 后使用一个点号 (.)， tag 与 点号之间不能有空格
 
 jade语法参考：http://blog.jayself.com/2014/07/28/Jade/
-# express-demo

@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+.container {
+    background: #ffff00;
+}
+
+.zip {
+    color: #4ccf72;
+}
+
+.list-ul {
+    list-style: katakana;
+    background: #bc65e0;
+}
+
+.list-li {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 100px
+}
+
+.table-list,.tb-tr,.tb-td1,.tb-td2{
+	border: 1px solid #999999;
+	border-collapse: collapse;
+	width: 100%
+}
+.tb-td1,.tb-td2{
+	width: 50%;
+	text-align: center;
+}

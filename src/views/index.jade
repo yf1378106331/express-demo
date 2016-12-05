@@ -1,0 +1,25 @@
+html
+  head
+    title!= title
+    link(rel='stylesheet',type='text/css',href='src/css/main.css')
+  body
+  div.container
+    h1!= message
+    img(src!=src)
+    img(src!=src)
+    - var n=0
+    ul.list-ul
+        while n < 20
+            li.list-li="第"+(n++)+'列'
+    a(herf='#').zip 刷新
+  div.table
+    table.table-list
+            tr.tb-tr
+                td.tb-td1 第一列
+                td.tb-td2 第二列
+            - for(var a=0;a<10;a++){
+            tr.tb-tr
+                td.tb-td1  tb1-#{a}
+                td.tb-td2  tb2-#{a}
+            - }
+        
